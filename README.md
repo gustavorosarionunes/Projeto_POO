@@ -30,19 +30,18 @@ Como Executar o Projeto:
 
 É necessário ter o Java 17 (ou superior) instalado na máquina.
 
-Opção 1: Pela IDE (Recomendado)
-Importe o projeto como um projeto Maven na sua IDE (IntelliJ, VSCode ou Eclipse).
-Espere a IDE baixar todas as dependências do Maven.
-Encontre o arquivo src/main/java/com/example/trabalho/TrabalhoAvaliativoApplication.java.
-Clique com o botão direito e execute o método main() (ou clique no ícone de "play" ▶).
-Opção 2: Pelo Terminal
-Abra um terminal (Prompt de Comando ou PowerShell) na pasta raiz do projeto (onde está o arquivo pom.xml).
+.Opção 1: Pela IDE (Recomendado)
+.Importe o projeto como um projeto Maven na sua IDE (IntelliJ, VSCode ou Eclipse).
+.Espere a IDE baixar todas as dependências do Maven.
+.Encontre o arquivo src/main/java/com/example/trabalho/TrabalhoAvaliativoApplication.java.
+.Clique com o botão direito e execute o método main() (ou clique no ícone de "play" ▶).
+.Opção 2: Pelo Terminal
+.Abra um terminal (Prompt de Comando ou PowerShell) na pasta raiz do projeto (onde está o arquivo pom.xml).
 
 Execute o seguinte comando:
 
 No Windows:
 .\mvnw.cmd spring-boot:run
-
 No Linux ou macOS
 ./mvnw spring-boot:run
 
