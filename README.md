@@ -24,7 +24,7 @@ Funcionalidades Principais:
 .Visualizar Time (/visualizar/{id}): Página de detalhes que exibe as informações de um time específico.
 .Editar Time (/editar/{id}): Formulário para alterar os dados de um time. Permite enviar um novo escudo (que substitui e apaga o antigo) ou manter o escudo atual.
 .Excluir Time (/excluir/{id}): Remove um time do banco de dados e também exclui o seu arquivo de escudo da pasta uploads/.
-Persistência de Dados: O banco de dados (trabalho-db.mv.db) e os escudos (uploads/) são salvos na raiz do projeto.
+.Persistência de Dados: O banco de dados (trabalho-db.mv.db) e os escudos (uploads/) são salvos na raiz do projeto.
 
 Como Executar o Projeto:
 
@@ -40,9 +40,10 @@ Como Executar o Projeto:
 
 Execute o seguinte comando:
 
-No Windows:
+>No Windows:
 .\mvnw.cmd spring-boot:run
-No Linux ou macOS
+
+>No Linux ou macOS
 ./mvnw spring-boot:run
 
 Acessando o Sistema:
