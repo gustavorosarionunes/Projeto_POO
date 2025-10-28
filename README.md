@@ -40,12 +40,13 @@ Abra um terminal (Prompt de Comando ou PowerShell) na pasta raiz do projeto (ond
 
 Execute o seguinte comando:
 
-# No Windows
+No Windows:
 .\mvnw.cmd spring-boot:run
 
-# No Linux ou macOS
+No Linux ou macOS
 ./mvnw spring-boot:run
-Acessando o Sistema
+
+Acessando o Sistema:
 Após a inicialização do servidor, acesse os seguintes endereços no seu navegador:
 
 Página Principal: http://localhost:8080
